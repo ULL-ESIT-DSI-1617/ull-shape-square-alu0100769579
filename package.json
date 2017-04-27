@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "ull shape square",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require should"
+    "test": "./node_modules/mocha/bin/mocha --require should",
+    "doc": "documentation build ./square.js -f html -o docs"
   },
   "repository": {
     "type": "git",
